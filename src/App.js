@@ -80,7 +80,7 @@ class App extends Component {
           <div className="col">
             <Description
               text={
-                "Demonstrates polynomial regression using gradient descent.\nClick to add points and watch the regression line form.\nA high learning rate paired with a high polynomial degree may blow up the function."
+                "Demonstrates polynomial regression using gradient descent.\nClick to add points and watch the regression polynomial form.\nA high learning rate paired with a high polynomial degree may blow up the function."
               }
             />
           </div>
