@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28dc66ab6d18de780c090f552db72875",
+    "revision": "5deca541610de5cc91ecdd7d24f7afa2",
     "url": "/polynomial-regression-gradient-descent/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/polynomial-regression-gradient-descent/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "9cfabeed6ce1a779e027",
+    "revision": "c5f0b6eb4b2acd9edb1f",
     "url": "/polynomial-regression-gradient-descent/static/css/main.64597955.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/polynomial-regression-gradient-descent/static/js/2.5b07622f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cfabeed6ce1a779e027",
-    "url": "/polynomial-regression-gradient-descent/static/js/main.827ab7b0.chunk.js"
+    "revision": "c5f0b6eb4b2acd9edb1f",
+    "url": "/polynomial-regression-gradient-descent/static/js/main.9105c16c.chunk.js"
   },
   {
     "revision": "376035698a4a07f3d4df",
