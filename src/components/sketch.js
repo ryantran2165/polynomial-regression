@@ -60,7 +60,11 @@ class Sketch extends Component {
         // Create points
         let increment = 10;
         let polynomialPoints = [];
-        for (let screenX = 0; screenX < p.width; screenX += increment) {
+        for (
+          let screenX = 0;
+          screenX <= p.width + increment;
+          screenX += increment
+        ) {
           let dataX = screenToDataX(screenX);
           let dataY = 0;
 
