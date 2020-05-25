@@ -2,15 +2,10 @@ import React, { Component } from "react";
 import p5 from "p5";
 import PropTypes from "prop-types";
 
-class Sketch extends Component {
-  constructor(props) {
-    super(props);
-    this.renderRef = React.createRef();
-  }
-
+class Myp5 extends Component {
   componentDidMount() {
-    window.addEventListener("resize", this.newSketch);
     this.newSketch();
+    window.addEventListener("resize", this.newSketch);
   }
 
   componentWillUnmount() {
@@ -18,33 +13,33 @@ class Sketch extends Component {
   }
 
   newSketch = () => {
-    if (this.hasOwnProperty("sketch")) {
-      this.sketch.remove();
+    if (this.hasOwnProperty("myp5")) {
+      this.myp5.remove();
     }
 
-    this.sketch = new p5((p) => {
-      p.setup = () => {
+    this.myp5 = new p5((sketch) => {
+      sketch.setup = () => {
         let width = Math.min(this.props.width, window.innerWidth * 0.8);
         let height = this.props.isSquare
           ? width
           : Math.min(this.props.height, window.innerHeight * 0.8);
-        p.createCanvas(width, height).parent(this.renderRef.current);
+        sketch.createCanvas(width, height);
       };
 
-      p.draw = () => {
-        p.background("#d3d3d3");
+      sketch.draw = () => {
+        sketch.background("#d3d3d3");
         drawPoints();
         drawPolynomial();
       };
 
       let drawPoints = () => {
-        p.fill("#7fffd4");
-        p.stroke("#222");
-        p.strokeWeight(2);
+        sketch.fill("#7fffd4");
+        sketch.stroke("#222");
+        sketch.strokeWeight(2);
 
         for (let point of this.props.points) {
           const pointSize = 8;
-          p.ellipse(
+          sketch.ellipse(
             dataToScreenX(point.x),
             dataToScreenY(point.y),
             pointSize,
@@ -54,15 +49,15 @@ class Sketch extends Component {
       };
 
       const drawPolynomial = () => {
-        p.stroke("#7fffd4");
-        p.strokeWeight(3);
+        sketch.stroke("#7fffd4");
+        sketch.strokeWeight(3);
 
         // Create points
         let increment = 10;
         let polynomialPoints = [];
         for (
           let screenX = 0;
-          screenX <= p.width + increment;
+          screenX <= sketch.width + increment;
           screenX += increment
         ) {
           let dataX = screenToDataX(screenX);
@@ -74,14 +69,14 @@ class Sketch extends Component {
           }
 
           // Add new point
-          polynomialPoints.push(p.createVector(dataX, dataY));
+          polynomialPoints.push(sketch.createVector(dataX, dataY));
         }
 
         // Draw lines between each point
         for (let i = 0; i < polynomialPoints.length - 1; i++) {
           let p1 = polynomialPoints[i];
           let p2 = polynomialPoints[i + 1];
-          p.line(
+          sketch.line(
             dataToScreenX(p1.x),
             dataToScreenY(p1.y),
             dataToScreenX(p2.x),
@@ -90,43 +85,46 @@ class Sketch extends Component {
         }
       };
 
-      p.mouseClicked = () => {
+      sketch.mouseClicked = () => {
         if (
-          p.mouseX > 0 &&
-          p.mouseX < p.width &&
-          p.mouseY > 0 &&
-          p.mouseY < p.height
+          sketch.mouseX > 0 &&
+          sketch.mouseX < sketch.width &&
+          sketch.mouseY > 0 &&
+          sketch.mouseY < sketch.height
         ) {
           this.props.onClick(
-            p.createVector(screenToDataX(p.mouseX), screenToDataY(p.mouseY))
+            sketch.createVector(
+              screenToDataX(sketch.mouseX),
+              screenToDataY(sketch.mouseY)
+            )
           );
         }
       };
 
       const screenToDataX = (screenX) => {
-        return screenX / p.width;
+        return screenX / sketch.width;
       };
 
       const screenToDataY = (screenY) => {
-        return (p.height - screenY) / p.height;
+        return (sketch.height - screenY) / sketch.height;
       };
 
       const dataToScreenY = (dataY) => {
-        return p.height - dataY * p.height;
+        return sketch.height - dataY * sketch.height;
       };
 
       const dataToScreenX = (dataX) => {
-        return dataX * p.width;
+        return dataX * sketch.width;
       };
-    });
+    }, "p5sketch");
   };
 
   render() {
-    return <div ref={this.renderRef}></div>;
+    return <div id="p5sketch"></div>;
   }
 }
 
-Sketch.defaultProps = {
+Myp5.defaultProps = {
   width: 100,
   height: 100,
   point: [],
@@ -134,7 +132,7 @@ Sketch.defaultProps = {
   isSquare: true,
 };
 
-Sketch.propTypes = {
+Myp5.propTypes = {
   width: PropTypes.number,
   height: PropTypes.number,
   points: PropTypes.array,
@@ -143,4 +141,4 @@ Sketch.propTypes = {
   isSquare: PropTypes.bool,
 };
 
-export default Sketch;
+export default Myp5;

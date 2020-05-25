@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Title from "./components/title";
 import Description from "./components/description";
-import Sketch from "./components/sketch";
+import Myp5 from "./components/my-p5";
 import Button from "./components/button";
 import RangeInput from "./components/range-input";
 import Label from "./components/label";
@@ -135,7 +135,7 @@ class App extends Component {
         </div>
         <div className="row pt-3">
           <div className="col">
-            <Sketch
+            <Myp5
               width={500}
               height={500}
               points={this.state.points}
