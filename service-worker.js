@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/polynomial-regression-gradient-descent/precache-manifest.78c18f267ce97983710f69abec129cef.js"
+  "/polynomial-regression-gradient-descent/precache-manifest.f56459323514094ad5827cee77ad0726.js"
 );
 
 self.addEventListener('message', (event) => {
