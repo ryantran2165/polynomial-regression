@@ -7,6 +7,7 @@ import RangeInput from "./components/range-input";
 import Label from "./components/label";
 import Equation from "./components/equation";
 import GradientDescent from "./logic/gradient-descent";
+import GithubCorner from "react-github-corner";
 
 const frameRate = 60;
 
@@ -149,6 +150,12 @@ class App extends Component {
             <Equation weights={this.state.weights} />
           </div>
         </div>
+        <GithubCorner
+          href="https://github.com/ryantran2165/polynomial-regression-gradient-descent"
+          bannerColor="#222"
+          octoColor="#7fffd4"
+          target="_blank"
+        />
       </div>
     );
   }
