@@ -74,7 +74,7 @@ class App extends Component {
       <div className="App container text-center pt-5">
         <div className="row">
           <div className="col">
-            <Title text="Polynomial Regression Gradient Descent" />
+            <Title text="Polynomial Regression" />
           </div>
         </div>
         <div className="row">
@@ -151,7 +151,7 @@ class App extends Component {
           </div>
         </div>
         <GithubCorner
-          href="https://github.com/ryantran2165/polynomial-regression-gradient-descent"
+          href="https://github.com/ryantran2165/polynomial-regression"
           bannerColor="#222"
           octoColor="#7fffd4"
           target="_blank"
