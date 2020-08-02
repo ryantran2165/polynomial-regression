@@ -1,6 +1,6 @@
 {
-  "short_name": "Polynomial Regression GD",
-  "name": "Polynomial Regression Gradient Descent",
+  "short_name": "Polynomial Regression",
+  "name": "Polynomial Regression",
   "icons": [
     {
       "src": "favicon.png",

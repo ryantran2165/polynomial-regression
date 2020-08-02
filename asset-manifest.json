@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/polynomial-regression-gradient-descent/static/css/main.64597955.chunk.css",
-    "main.js": "/polynomial-regression-gradient-descent/static/js/main.adc16b5d.chunk.js",
-    "main.js.map": "/polynomial-regression-gradient-descent/static/js/main.adc16b5d.chunk.js.map",
-    "runtime-main.js": "/polynomial-regression-gradient-descent/static/js/runtime-main.f214d251.js",
-    "runtime-main.js.map": "/polynomial-regression-gradient-descent/static/js/runtime-main.f214d251.js.map",
-    "static/css/2.829c9cb5.chunk.css": "/polynomial-regression-gradient-descent/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.9585a7e5.chunk.js": "/polynomial-regression-gradient-descent/static/js/2.9585a7e5.chunk.js",
-    "static/js/2.9585a7e5.chunk.js.map": "/polynomial-regression-gradient-descent/static/js/2.9585a7e5.chunk.js.map",
-    "index.html": "/polynomial-regression-gradient-descent/index.html",
-    "precache-manifest.f56459323514094ad5827cee77ad0726.js": "/polynomial-regression-gradient-descent/precache-manifest.f56459323514094ad5827cee77ad0726.js",
-    "service-worker.js": "/polynomial-regression-gradient-descent/service-worker.js",
-    "static/css/2.829c9cb5.chunk.css.map": "/polynomial-regression-gradient-descent/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.64597955.chunk.css.map": "/polynomial-regression-gradient-descent/static/css/main.64597955.chunk.css.map",
-    "static/js/2.9585a7e5.chunk.js.LICENSE.txt": "/polynomial-regression-gradient-descent/static/js/2.9585a7e5.chunk.js.LICENSE.txt"
+    "main.css": "/polynomial-regression/static/css/main.64597955.chunk.css",
+    "main.js": "/polynomial-regression/static/js/main.015a306b.chunk.js",
+    "main.js.map": "/polynomial-regression/static/js/main.015a306b.chunk.js.map",
+    "runtime-main.js": "/polynomial-regression/static/js/runtime-main.786aed99.js",
+    "runtime-main.js.map": "/polynomial-regression/static/js/runtime-main.786aed99.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/polynomial-regression/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.89d3d967.chunk.js": "/polynomial-regression/static/js/2.89d3d967.chunk.js",
+    "static/js/2.89d3d967.chunk.js.map": "/polynomial-regression/static/js/2.89d3d967.chunk.js.map",
+    "index.html": "/polynomial-regression/index.html",
+    "precache-manifest.2e55c191889e1f76940a6d9d92f0e97e.js": "/polynomial-regression/precache-manifest.2e55c191889e1f76940a6d9d92f0e97e.js",
+    "service-worker.js": "/polynomial-regression/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/polynomial-regression/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.64597955.chunk.css.map": "/polynomial-regression/static/css/main.64597955.chunk.css.map",
+    "static/js/2.89d3d967.chunk.js.LICENSE.txt": "/polynomial-regression/static/js/2.89d3d967.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f214d251.js",
+    "static/js/runtime-main.786aed99.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.9585a7e5.chunk.js",
+    "static/js/2.89d3d967.chunk.js",
     "static/css/main.64597955.chunk.css",
-    "static/js/main.adc16b5d.chunk.js"
+    "static/js/main.015a306b.chunk.js"
   ]
 }
