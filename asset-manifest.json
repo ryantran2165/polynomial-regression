@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/polynomial-regression/static/css/main.64597955.chunk.css",
-    "main.js": "/polynomial-regression/static/js/main.015a306b.chunk.js",
-    "main.js.map": "/polynomial-regression/static/js/main.015a306b.chunk.js.map",
+    "main.js": "/polynomial-regression/static/js/main.7b8de319.chunk.js",
+    "main.js.map": "/polynomial-regression/static/js/main.7b8de319.chunk.js.map",
     "runtime-main.js": "/polynomial-regression/static/js/runtime-main.786aed99.js",
     "runtime-main.js.map": "/polynomial-regression/static/js/runtime-main.786aed99.js.map",
     "static/css/2.829c9cb5.chunk.css": "/polynomial-regression/static/css/2.829c9cb5.chunk.css",
     "static/js/2.89d3d967.chunk.js": "/polynomial-regression/static/js/2.89d3d967.chunk.js",
     "static/js/2.89d3d967.chunk.js.map": "/polynomial-regression/static/js/2.89d3d967.chunk.js.map",
     "index.html": "/polynomial-regression/index.html",
-    "precache-manifest.2e55c191889e1f76940a6d9d92f0e97e.js": "/polynomial-regression/precache-manifest.2e55c191889e1f76940a6d9d92f0e97e.js",
+    "precache-manifest.1e1e8b8f872f19f8b7a81e53063ab461.js": "/polynomial-regression/precache-manifest.1e1e8b8f872f19f8b7a81e53063ab461.js",
     "service-worker.js": "/polynomial-regression/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/polynomial-regression/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.64597955.chunk.css.map": "/polynomial-regression/static/css/main.64597955.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.89d3d967.chunk.js",
     "static/css/main.64597955.chunk.css",
-    "static/js/main.015a306b.chunk.js"
+    "static/js/main.7b8de319.chunk.js"
   ]
 }
