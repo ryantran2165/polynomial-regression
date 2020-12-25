@@ -5,6 +5,11 @@ const Equation = ({ weights }) => {
   return <h5>y = {getExpression(weights)}</h5>;
 };
 
+/**
+ * Returns the string or array of strings representing the equation.
+ * @param {Array} weights The weights for each degree
+ * @return {string | Array} The string or array of strings representing the equation
+ */
 const getExpression = (weights) => {
   let terms = [];
 
@@ -62,6 +67,11 @@ const getExpression = (weights) => {
   return terms;
 };
 
+/**
+ * Returns the number rounded to two decimals.
+ * @param {number} num The number to format
+ * @return {number} the number rounded to two decimals
+ */
 const format = (num) => {
   return Math.round(num * 100) / 100;
 };
