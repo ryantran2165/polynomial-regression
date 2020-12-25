@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/polynomial-regression/precache-manifest.1e1e8b8f872f19f8b7a81e53063ab461.js"
+  "/polynomial-regression/precache-manifest.554e2b895cef9594713d0b1a16adc8f3.js"
 );
 
 self.addEventListener('message', (event) => {
