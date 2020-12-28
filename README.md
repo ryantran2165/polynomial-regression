@@ -1,7 +1,6 @@
 # Polynomial Regression
 
 • Created web app that performs and graphs polynomial regression using gradient descent on user-inputted data points  
-• Ancestor project of Linear Regression  
 • JavaScript/JSX, HTML, CSS/SASS | React, Bootstrap | Git  
 • https://www.ryanlongtran.com/polynomial-regression
 
